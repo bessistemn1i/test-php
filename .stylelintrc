@@ -1,0 +1,105 @@
+{
+  "plugins": [
+    "stylelint-scss",
+    "stylelint-order",
+  ],
+ 
+  "rules": {
+      "order/properties-order": [
+        {
+          groupName: "positioning",
+          emptyLineBefore: "always",
+          order: "flexible",
+          properties: [
+            "position",
+            "transform",
+            "top",
+            "right",
+            "bottom",
+            "left",
+            "z-index"
+          ],
+        },
+        {
+          groupName: "box model",
+          emptyLineBefore: "always",
+          order: "flexible",
+          properties: [
+            "display",
+            "flex-direction",
+            "flex-wrap",
+            "flex-basis",
+            "justify-content",
+            "align-items",
+            "vertical-align",
+            "float",
+            "height",
+            "max-height",
+            "min-height",
+            "width",
+            "min-width",
+            "max-width",
+            "margin",
+            "margin-top",
+            "margin-right",
+            "margin-bottom",
+            "margin-left",
+            "padding",
+            "padding-top",
+            "padding-right",
+            "padding-bottom",
+            "padding-left"
+          ],
+        },
+        {
+          groupName: "typography",
+          emptyLineBefore: "always",
+          properties: [
+            "color",
+            "font-family",
+            "font-size",
+            "font-weight",
+            "letter-spacing",
+            "line-height",
+            "text-align"
+          ]
+        },
+        {
+          groupName: "visual",
+          emptyLineBefore: "always",
+          properties: [
+            "background",
+            "background-color",
+            "background-image",
+            "border",
+            "border-top",
+            "border-left",
+            "border-bottom",
+            "border-right",
+            "border-radius",
+            "cursor",
+            "opacity"
+          ]
+        },
+      ],
+      "indentation": 4,
+      "string-quotes": "double",
+      "rule-empty-line-before": ["always", { except: ["first-nested"]}],
+      "selector-attribute-brackets-space-inside": "always",
+      "selector-combinator-space-before": "always",
+      "declaration-block-semicolon-newline-after": "always-multi-line",
+      "declaration-block-trailing-semicolon": "always",
+      "declaration-block-no-duplicate-properties": true,
+      "no-extra-semicolons": true,
+      "color-named": "never",
+      "selector-attribute-quotes": "always",
+      "selector-type-case": "lower",
+      "value-list-comma-space-after": "always-single-line",
+      "length-zero-no-unit": true,
+      "font-weight-notation": "numeric",
+      "color-hex-length": "long",
+      "number-leading-zero": "always",
+      "block-opening-brace-space-before": "always",
+      "scss/double-slash-comment-empty-line-before": ["always", { except: ["first-nested"]}],
+  }
+}

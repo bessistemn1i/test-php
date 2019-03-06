@@ -1,0 +1,43 @@
+{
+    "name": "test-php",
+    "version": "1.0.0",
+    "description": "test php in different ways",
+    "main": " ",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bessistemn1i/test-php.git"
+    },
+    "author": "Eduard Zhulega",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bessistemn1i/test-php/issues"
+    },
+    "homepage": "https://github.com/bessistemn1i/test-php#readme",
+    "devDependencies": {
+        "browser-sync": "^2.26.3",
+        "gulp": "^4.0.0",
+        "gulp-autoprefixer": "^6.0.0",
+        "gulp-cheerio": "^0.6.3",
+        "gulp-csso": "^3.0.1",
+        "gulp-html-beautify": "^1.0.1",
+        "gulp-notify": "^3.2.0",
+        "gulp-pug": "^4.0.1",
+        "gulp-rename": "^1.4.0",
+        "gulp-replace": "^1.0.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-svg-sprites": "^4.1.2",
+        "gulp-svgmin": "^2.1.0",
+        "sass-module-importer": "^1.4.0",
+        "stylelint": "^9.10.1",
+        "stylelint-order": "^2.0.0",
+        "stylelint-scss": "^3.5.2",
+        "uglifyjs-webpack-plugin": "^2.1.1",
+        "webpack-stream": "^5.2.1"
+    },
+    "dependencies": {
+        "normalize.css": "^8.0.1"
+    }
+}
